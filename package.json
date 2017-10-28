@@ -1,0 +1,28 @@
+{
+  "name": "@fanhua-tatto/api-image",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "file-type": "^7.2.0",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-helmet": "^3.2.0",
+    "koa-logger": "3.1.0",
+    "koa-route": "3.2.0",
+    "koa-send": "^4.1.1",
+    "read-chunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
